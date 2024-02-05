@@ -1,3 +1,6 @@
+动图的质量不太好，是在[这里](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)的动画录屏后，转为gif的。网站上占不到生成gif动画的地方，反正我摆烂了
+
+
 <div align=center><img src="fig/Shell_Sort.gif" width="  "></div>
 
 有两个参考资料：
