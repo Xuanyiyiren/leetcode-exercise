@@ -1,3 +1,5 @@
+<div align=center><img src="fig/Shell_Sort.gif" width="  "></div>
+
 有两个参考资料：
 
 - [https://oi-wiki.org/basic/shell-sort/](https://oi-wiki.org/basic/shell-sort/) 
