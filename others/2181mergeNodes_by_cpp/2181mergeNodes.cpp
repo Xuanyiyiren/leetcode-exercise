@@ -21,7 +21,7 @@ public:
 		ListNode *p = head , *q = head -> next;
 		// cout << q -> val << endl;
 		ListNode *temp;
-		while(q){
+		while(1){
 			// cout << "RUN WHILE?" << endl;
 			if(q->val){
 				p -> val += q -> val;
@@ -39,13 +39,18 @@ public:
 				}
 				else{
 					temp -> next = nullptr;
+					while(q){
+						temp = q;
+						q = q -> next;
+						delete temp;
+					}
 					return head;
 				}
 			}
 		}
 
 
-		cout << "mergeNodes End!" << endl;
+		// cout << "mergeNodes End!" << endl;
 		return head;
 		
     }
